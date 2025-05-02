@@ -304,16 +304,21 @@ FEATURES ↓
     align-items: center;
 }
 
-.container {
-    padding: 80px 0;
-}
-
 .ftrs__prple {
+    letter-spacing: 1.57px;
     font-weight: 700;
     color: rgb(100 21 255);
 }
 
+.ftrs__header {
+    font-size: 50px;
+    margin-top: 16px;
+    font-weight: 700;
+}
 
+.ftrs__para {
+    padding: 30px;
+}
 
 
 /* 
