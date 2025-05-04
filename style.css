@@ -320,7 +320,7 @@ FEATURES ↓
     width: 100%;
     max-width: 576px;
     text-align: center;
-    margin-top: 16px;
+    margin-top: 10px;
     font-weight: 500;
     opacity: 0.7;
     font-size: large;
@@ -330,15 +330,15 @@ FEATURES ↓
 .feature__img {
     width: 100%;
     max-width: 9999px;
-    padding: 17px;
+    padding: 18px;
 }
 
 .feature__img--wrapper {
-    border: 2px;
-    color: grey;
+    border: 1px;
+    border-color: rgb(209, 216, 225);
     border-style: solid;
     width: 100%;
-    max-width: 70px;
+    max-width: 60px;
     border-radius: 9999px;
     height: 100%;
     max-height: 100px;
@@ -365,7 +365,14 @@ FEATURES ↓
 }
 
 .h1__secure {
-    margin-bottom: 15px;
+    margin-top: 10px;
+    margin-bottom: 12.5px;
+}
+
+.p__secure {
+    font-weight: 500;
+    line-height: 2;
+    color: rgb(124 139 161)
 }
 
 
