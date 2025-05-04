@@ -343,16 +343,30 @@ FEATURES ↓
     height: 100%;
     max-height: 100px;
     text-align: center;
+    margin-right: 20px;
 }
+
+.feature {
+    margin-top: 70px;
+    display: flex;
+    width: 100%;
+    max-width: 300px;
+}
+
 
 .feature__lists {
-}
-
-
-.feature__list {
     display: flex;
+    flex-wrap: wrap;
+    align-items: center;
+    justify-content: center;
+    width: 100%;
+    max-width: 1200px;
+    gap: 60px;
 }
 
+.h1__secure {
+    margin-bottom: 15px;
+}
 
 
 /* 
