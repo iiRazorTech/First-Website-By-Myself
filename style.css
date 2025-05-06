@@ -372,7 +372,7 @@ FEATURES ↓
 .p__secure {
     font-weight: 500;
     line-height: 2;
-    color: rgb(124 139 161)
+    color: rgb(124 139 161);
 }
 
 
@@ -389,6 +389,24 @@ QUALITY WORK ↓
     align-items: center;
 }
 
+.row {
+    width: 100%;
+    max-width: 120px;
+    margin: 0 auto;
+}
+
+.q__work {
+    letter-spacing: 2px;
+    font-weight: 700;
+    color: rgb(100 21 255);
+}
+
+.p__work {
+    font-weight: 500;
+    color: rgb(124 139 161);
+    line-height: 1.5;
+
+}
 
 /* 
 
