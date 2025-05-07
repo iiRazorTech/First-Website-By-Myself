@@ -376,6 +376,7 @@ FEATURES ↓
 }
 
 
+
 /* 
 
 QUALITY WORK ↓
@@ -393,22 +394,62 @@ QUALITY WORK ↓
     letter-spacing: 2px;
     font-weight: 700;
     color: rgb(100 21 255);
+    margin-bottom: 12px;
 }
 
 .p__work {
     font-weight: 500;
     color: rgb(124 139 161);
     line-height: 1.5;
-
+    margin-top: 16px;
 }
 
-.img__hero {
-    width: 50%;
+
+.quality__row {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
 }
 
 .img__container {
+    width: 50%;
+    margin: 0 56px;
     display: flex;
 }
+
+.img__hero {
+    width: 100%;
+    border: 1px;
+    border-style: solid;
+    border-color: rgb(211, 217, 228);
+}
+
+.quality__description--wrapper {
+    width: 50%;
+    margin-right: 64px;
+    max-width: 576px;
+}
+
+
+.learn__more {
+    margin-top: 36px;
+    font-weight: 600;
+    color: white;
+    border-style: solid;
+    border-radius: 50px;
+    border-color: rgb(100, 21, 255);
+    background-color: rgb(100, 21, 255);
+    cursor: pointer;
+    border-width: 14px;
+    border-left-width: 30px;
+    border-right-width: 30px;
+}
+
+.learn__more:hover {
+    border-color: rgb(80, 17, 204);
+    background-color: rgb(80, 17, 204);;
+}
+
 
 /* 
 
@@ -421,6 +462,20 @@ STEPS ↓
     display: flex;
     justify-content: space-between;
     align-items: center;
+}
+
+.img__laptop {
+    width: 100%;
+}
+
+.steps__section--wrapper {
+    width: 50%;
+    margin-right: 64px;
+    max-width: 576px;
+}
+
+.steps__container {
+    width: 50%;
 }
 
 
