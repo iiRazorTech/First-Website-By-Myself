@@ -389,12 +389,6 @@ QUALITY WORK ↓
     align-items: center;
 }
 
-.row {
-    width: 100%;
-    max-width: 120px;
-    margin: 0 auto;
-}
-
 .q__work {
     letter-spacing: 2px;
     font-weight: 700;
@@ -406,6 +400,14 @@ QUALITY WORK ↓
     color: rgb(124 139 161);
     line-height: 1.5;
 
+}
+
+.img__hero {
+    width: 50%;
+}
+
+.img__container {
+    display: flex;
 }
 
 /* 
