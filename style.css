@@ -563,6 +563,32 @@ VALUES ↓
     color: rgb(100, 21, 255);
 }
 
+.values__header {
+    font-size: 50px;
+    font-weight: 900;
+    margin-top: 20px;
+}
+
+.values__para {
+    font-size: 18px;
+    font-weight: 500;
+    line-height: 1.7;
+    margin-top: 24px;
+    color: rgb(124 139 161);
+}
+
+.values__promises--row {
+    display: flex;
+    flex-direction: row;
+    width: 50%;
+}
+
+.values__promises--container {
+    display: flex;
+    flex-direction: column;
+    width: 50%;
+}
+
 
 /*
 
