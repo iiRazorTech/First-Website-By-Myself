@@ -579,12 +579,7 @@ VALUES ↓
 
 .values__promises--row {
     display: flex;
-    flex-direction: row;
-    width: 50%;
-}
-
-.values__promises--container {
-    display: flex;
+    justify-content: center;
     flex-direction: column;
     width: 50%;
 }
