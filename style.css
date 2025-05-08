@@ -501,7 +501,6 @@ STEPS ↓
 .li__row {
     display: flex;
     flex-direction: row;
-    align-items: flex-start;
     align-items: center;
     margin-top: 32px;
 }
@@ -544,6 +543,24 @@ VALUES ↓
     display: flex;
     justify-content: space-between;
     align-items: center;
+}
+
+.values__img--wrapper {
+    width: 50%;
+}
+
+.values__img {
+    max-width: 100%;
+}
+
+.values__wrapper {
+    width: 50%;
+}
+
+.values {
+    letter-spacing: 2px;
+    font-size: 16px;
+    color: rgb(100, 21, 255);
 }
 
 
