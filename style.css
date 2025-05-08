@@ -580,10 +580,11 @@ VALUES ↓
 .values__promises--row {
     display: flex;
     justify-content: center;
-    flex-direction: column;
-    width: 50%;
 }
 
+.value__promises--container {
+    width: 50%;
+}
 
 /*
 
