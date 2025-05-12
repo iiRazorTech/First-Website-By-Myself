@@ -610,9 +610,9 @@ VALUES ↓
     color: rgb(155 44 44);
 }
 
-.h1 {
+.side1 {
     display: flex;
-    justify-content: right;
+    align-items: center;
 }
 
 /*
