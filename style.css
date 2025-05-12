@@ -610,9 +610,13 @@ VALUES ↓
     color: rgb(155 44 44);
 }
 
-.side1 {
+.side1, .side2 {
     display: flex;
     align-items: center;
+}
+
+.h3__value {
+    margin-left: 12px;
 }
 
 /*
