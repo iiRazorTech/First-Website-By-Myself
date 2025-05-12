@@ -577,13 +577,42 @@ VALUES ↓
     color: rgb(124 139 161);
 }
 
-.values__promises--row {
+.two__column--column {
     display: flex;
-    justify-content: center;
+    flex-direction: row;
+    width: 100%;
 }
 
-.value__promises--container {
+.two__column--row {
     width: 50%;
+    margin-top: 32px;
+    font-weight: 700;
+    font-size: 20px;
+}
+
+.value__border--money {
+    border: rgb(154 230 180);
+    border-style: solid;
+    width: 30px;
+    border-radius: 99999px;
+    text-align: center;
+    background-color: rgb(154 230 180);
+    color: rgb(39 103 73);
+}
+
+.value__border--suitcase {
+    border: rgb(254 178 178);
+    border-style: solid;
+    width: 30px;
+    border-radius: 99999px;
+    text-align: center;
+    background-color: rgb(254 178 178);
+    color: rgb(155 44 44);
+}
+
+.h1 {
+    display: flex;
+    justify-content: right;
 }
 
 /*
