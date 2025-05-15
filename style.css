@@ -1198,6 +1198,14 @@ MOBILE RESPONSIVENESS ↓
     footer {
         padding: 80px 32px;
     }
+
+    .row__headers {
+        display: none;
+    }
+
+    .plans {
+        display: none;
+    }
 }
 
 @media(max-width: 768px) {
@@ -1225,5 +1233,9 @@ MOBILE RESPONSIVENESS ↓
     }
     main {
         margin-bottom: 80px;
+    }
+
+    .small__phone {
+        display: none;
     }
 }
